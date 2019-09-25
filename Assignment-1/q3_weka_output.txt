@@ -1,0 +1,68 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     titanic2
+Instances:    2201
+Attributes:   4
+              pclass
+              age
+              sex
+              survived
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                Class
+Attribute         yes     no
+               (0.32) (0.68)
+=============================
+pclass
+  1st            204.0  123.0
+  2nd            119.0  168.0
+  3rd            179.0  529.0
+  crew           213.0  674.0
+  [total]        715.0 1494.0
+
+age
+  adult          655.0 1439.0
+  child           58.0   53.0
+  [total]        713.0 1492.0
+
+sex
+  male           368.0 1365.0
+  female         345.0  127.0
+  [total]        713.0 1492.0
+
+
+
+Time taken to build model: 0.01 seconds
+
+=== Predictions on test set ===
+
+    inst#     actual  predicted error prediction
+        1        1:?       2:no       0.523 
+        2        1:?      1:yes       0.793 
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Total Number of Instances                0     
+Ignored Class Unknown Instances                  2     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 ?        ?        ?          ?        ?          ?        ?         ?         yes
+                 ?        ?        ?          ?        ?          ?        ?         ?         no
+Weighted Avg.    ?        ?        ?          ?        ?          ?        ?         ?         
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 0 0 | a = yes
+ 0 0 | b = no
