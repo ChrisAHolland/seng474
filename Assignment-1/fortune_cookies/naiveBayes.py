@@ -15,7 +15,7 @@ def getVocab(line, vocab):
         else:
             vocab[word] = 1
     return wordCount
-
+    
 '''
 Trains a multinomial model.
 Partially based on pseudocodegiven in class.
