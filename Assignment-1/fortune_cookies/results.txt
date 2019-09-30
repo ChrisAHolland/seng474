@@ -1,0 +1,7 @@
+Training Files: traindata.txt, trainlabels.txt
+Test Files: traindata.txt, trainlabels.txt
+Result: 0.9658385093167702
+
+Training Files: traindata.txt, trainlabels.txt
+Test Files: testdata.txt, testlabels.txt
+Result: 0.7722772277227723
